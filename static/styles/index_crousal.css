@@ -1,0 +1,34 @@
+.banners{
+  width: 100%;
+  /*margin-left: 12%;*/
+  content:url("banner\.jpeg");
+}
+
+.fuddu{
+  width: 100%
+}
+
+
+.content{
+  /*height: 400px;*/
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.content .crousal{
+  /*height: 100%;*/
+  width: 100%;
+}
+.crousal{
+  /*height: 100%;*/
+  width: 100%;
+}
+
+.continent{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*min-height: 100vh;*/
+}

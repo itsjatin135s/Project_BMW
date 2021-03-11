@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    margin-top: 10%;
+}
+
+.qoute{
+  text-align: center;
+  margin-top: -2%;
+}
+
+.redirector{
+	margin-left: 7%;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: x-large;
+	background-color:skyblue;
+}
+
+.divredirector{
+	margin-top: 13%;
+	margin-left: 34%
+}

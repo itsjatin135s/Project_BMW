@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BMW</title>
+	<link rel="stylesheet" href="{{url_for('static',filename='styles/index.css')}}">
+</head>
+<body>
+	 <div>
+      <p class="title"> BAGDI MINIRAL WATER </p>
+      <p class="qoute"> Shudhh Piyo Swasth Rho </p>      
+  </div>
+
+  <div class="divredirector">
+  	<a class="redirector" href="{{ url_for('admin_login') }}" title="Admin">Admin</a>
+  	<a class="redirector" href="{{ url_for('customer_login') }}" title="Customer">Customer</a>	
+  </div>
+	
+</body>
+</html>
