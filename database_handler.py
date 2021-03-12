@@ -24,9 +24,9 @@ def fetch():
 	conn.commit()
 	conn.close()
 	if len(data)==0:
-		print ("kachu bhi na ya  me")
+		print ("data list is empty")
 	else:
-		print("kuch to gadbad hai daya")
+		print("Printing the required data...")
 	return data
 
 if __name__ == '__main__':
