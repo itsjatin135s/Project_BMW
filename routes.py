@@ -17,7 +17,7 @@ def admin_login():
 @app.route('/check_admin',methods=['GET','POST'])
 def check_admin():
 	if request.method=='GET':
-		return "bhag basdk"
+		return "Please go back to the admin login page and fill the credentials"
 	else:
 		uname = request.form['uname']
 		password = request.form['pass']
